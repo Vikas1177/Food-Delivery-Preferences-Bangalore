@@ -125,8 +125,9 @@ Both models identified critical features for predicting delivery outcomes:
 ## File Structure
 
 ```
-├── EDA.ipynb                    # Exploratory Data Analysis
-├── train_and_eval.ipynb         # Model Training and Evaluation
+├── notebooks
+      ├──EDA.ipynb                    # Exploratory Data Analysis
+      └──train_and_eval.ipynb         # Model Training and Evaluation
 ├── README.md                    # This file
 └── data/
     └── food_delivery_data.csv   # Dataset (388 records, 55 features)
