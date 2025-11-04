@@ -132,33 +132,6 @@ Both models identified critical features for predicting delivery outcomes:
     └── food_delivery_data.csv   # Dataset (388 records, 55 features)
 ```
 
-## Usage
-
-### Installation
-```bash
-pip install -r requirements.txt
-```
-
-### Dependencies
-- pandas >= 1.0
-- numpy >= 1.18
-- scikit-learn >= 0.24
-- matplotlib >= 3.3
-- seaborn >= 0.11
-- shap (for feature importance visualization)
-
-### Running the Analysis
-
-#### 1. Exploratory Data Analysis
-```bash
-jupyter notebook EDA.ipynb
-```
-
-#### 2. Model Training and Evaluation
-```bash
-jupyter notebook train_and_eval.ipynb
-```
-
 ### Results
 Both notebooks produce:
 - Statistical summaries and distributions
@@ -166,19 +139,6 @@ Both notebooks produce:
 - ROC curves and confusion matrices
 - Model performance metrics
 
-## Model Deployment
-
-### Predictions
-For new delivery scenarios, use the trained Random Forest model:
-
-```python
-import joblib
-model = joblib.load('random_forest_model.pkl')
-prediction = model.predict(new_data)
-```
-
-### Feature Requirements
-Ensure input data contains all 52 processed features (after encoding and feature selection)
 
 ## Performance Metrics
 
