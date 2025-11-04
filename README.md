@@ -190,36 +190,6 @@ Ensure input data contains all 52 processed features (after encoding and feature
 | F1-Score | 0.97 | 0.96 |
 | ROC-AUC | High | High |
 
-## Recommendations
-
-1. **Model Selection**: Random Forest recommended for production use (highest accuracy)
-2. **Class Imbalance**: Consider threshold adjustment if recall needs to be prioritized
-3. **Feature Engineering**: Explore interaction terms for improved predictions
-4. **Data Collection**: Gather more negative class samples to improve balance
-5. **Monitoring**: Implement model performance monitoring in production
-
-## Limitations
-
-- Class imbalance may affect model generalization to new negative cases
-- Limited to food delivery domain with specific geographic context (Bangalore)
-- Model trained on relatively small dataset (388 samples)
-- Categorical features one-hot encoded, increasing dimensionality
-
-## Future Work
-
-- Implement advanced ensemble methods (XGBoost, LightGBM)
-- Conduct hyperparameter optimization using GridSearchCV
-- Generate synthetic negative samples for better class balance
-- Deploy model as REST API for real-time predictions
-- Implement SHAP for model explainability
-
-## Author & Contributors
-
-This project was developed as part of machine learning model development exercises.
-
-## License
-
-This project is open source and available under the MIT License.
 
 ## Acknowledgments
 
