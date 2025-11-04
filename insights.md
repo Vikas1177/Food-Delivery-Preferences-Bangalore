@@ -136,6 +136,3 @@ The predictive model (**94.87% accuracy**) indicates strong potential for **cust
 | Professionals | Moderate | High | Premium plans |
 
 ---
-
-
-## 🧾 Folder Structure
